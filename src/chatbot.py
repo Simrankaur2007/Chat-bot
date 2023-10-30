@@ -24,6 +24,7 @@ def get_account() -> int:
             print("Account number must be a whole number.")
 
 
+
 def get_amount() -> float:
     """
     Prompt the user for the amount to deposit and return it as a float.
