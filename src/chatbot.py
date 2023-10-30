@@ -60,6 +60,7 @@ def make_deposit(account: int, amount: float) -> str:
     ACCOUNTS[account]["balance"] += amount
     return f'You have made a deposit of ${amount:.2f} to account {account}.'
 
+
 def user_selection() -> str:
     """
     Prompt the user for their selection and return it if valid.
@@ -90,3 +91,4 @@ def chatbot():
 
 if __name__ == "__main__":
     chatbot()
+
